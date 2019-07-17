@@ -1,0 +1,11 @@
+{
+  "name": "angular_7_crash_course_2019",
+  "version": "1.0.0",
+  "description": "💻 Tutorial: Tour of Heroes The Tour of Heroes tutorial covers the fundamentals of Angular.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
