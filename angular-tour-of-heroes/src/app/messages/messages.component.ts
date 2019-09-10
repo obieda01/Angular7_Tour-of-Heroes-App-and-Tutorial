@@ -1,8 +1,16 @@
-<div *ngIf="messageService.messages.length">
+import { Component, OnInit } from '@angular/core';
+import { MessageService } from '../message.service';
 
-  <h2>Messages</h2>
-  <button class="clear"
-          (click)="messageService.clear()">clear</button>
-  <div *ngFor='let message of messageService.messages'> {{message}} </div>
+@Component({
+  selector: 'app-messages',
+  templateUrl: './messages.component.html',
+  styleUrls: ['./messages.component.css']
+})
+export class MessagesComponent implements OnInit {
 
-</div>
+  constructor(public messageService: MessageService) {}
+
+  ngOnInit() {
+  }
+
+}
