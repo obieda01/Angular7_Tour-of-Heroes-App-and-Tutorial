@@ -7,6 +7,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './banner/banner.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BannerComponent } from './banner/banner.component';
     HeroDetailComponent,
     MessagesComponent,
     AboutComponent,
-    BannerComponent
+    BannerComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
