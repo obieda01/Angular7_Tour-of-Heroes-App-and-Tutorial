@@ -8,6 +8,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './banner/banner.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BannerInitialComponent } from './banner-initial/banner-initial.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MessagesComponent,
     AboutComponent,
     BannerComponent,
-    DashboardComponent
+    DashboardComponent,
+    BannerInitialComponent
   ],
   imports: [
     BrowserModule,
