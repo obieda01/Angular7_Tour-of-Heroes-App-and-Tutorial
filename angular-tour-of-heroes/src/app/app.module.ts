@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './banner/banner.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BannerInitialComponent } from './banner-initial/banner-initial.component';
+import { BannerExternalComponent } from './banner-external/banner-external.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BannerInitialComponent } from './banner-initial/banner-initial.componen
     AboutComponent,
     BannerComponent,
     DashboardComponent,
-    BannerInitialComponent
+    BannerInitialComponent,
+    BannerExternalComponent
   ],
   imports: [
     BrowserModule,
